@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body{
+    background-image: linear-gradient(to top, var(--cor5), var(--cor6
+    ) );
+  }
   div#login {
     width: 80vw;
     height: 350px;
@@ -24,6 +28,10 @@
 }
 
 @media screen and (min-width: 992px) {
+  body{
+    background-image: linear-gradient(to top, var(--cor5), var(--cor6
+    ) );
+  }
   div#login{
     width: 90vw;
     max-width: 900px;
