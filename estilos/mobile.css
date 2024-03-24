@@ -1,9 +1,30 @@
 @charset "UTF-8";
-
+*{
+  margin: 0;
+  padding: 0;
+}
 :root {
   --cor1: #022601;
   --cor2: #214001;
   --cor3: #9EA663;
   --cor4: #565902;
   --cor5: #0D0D0D;
+}
+body{
+  background: var(--cor5);
+  position: relative;
+  height: 100vh;
+}
+div#login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border-radius: 10px;
+}
+div section#imagem{
+  height: 200px;
+  background: black url('../imagem/pexels-jorge-urosa-5546102.jpg') no-repeat center center;
+  background-size: cover;
 }
