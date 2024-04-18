@@ -71,6 +71,9 @@ div#conteudo>section>p {
   padding: 5px;
   border-radius: 20px;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 input {
